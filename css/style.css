@@ -136,6 +136,9 @@ margin: auto !important
 .w-60{
     width: 60%;
 }
+.w-98{
+    width: 98% !important;
+}
 
 .a-dark-bg{
     background-color: #251C1C;
@@ -381,4 +384,9 @@ color: var(--main-bg-color);
 
 .confirm-section img{
     width: 50px;
+}
+
+.a-border-right{
+    border-right: lightgray 1px solid;
+    padding: inherit;
 }
