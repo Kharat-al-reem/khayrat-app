@@ -380,7 +380,11 @@ a:hover {
   padding: inherit;
 }
 .a-border-left {
-  border-left: lightgray 1px solid;
+  border-left: lightgray 2px solid;
+}
+/* Starting Account page */
+.my-account {
+  position: relative;
 }
 .acc-short {
   width: 80px;
@@ -389,18 +393,51 @@ a:hover {
 .acc-short i {
   font-size: 3rem;
 }
-.acc-long{
-    width: 350px;
-    height: 80px;
+.acc-long {
+  width: 350px;
+  height: 80px;
 }
-.acc-long span{
+.acc-long span {
   font-size: 1.5rem;
- 
+  color: var(--main-color);
 }
-.acc-long a{
-    
-  }
+.acc-long a {
+}
 
-.a-bg-white{
-    background-color: white;
+.a-bg-white {
+  background-color: white;
+}
+.fa-angle-left {
+  color: var(--main-bg-color);
+  font-size: x-large;
+}
+
+/* contact with page */
+.contact-with {
+  position: relative;
+  margin-bottom: 140px;
+}
+.contact-with-img-bg {
+  position: absolute;
+
+  /* background-color: var(--main-bg-color); */
+  width: 60%;
+  height: 660px;
+  background-image: url("../imgs/hadi.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.contact-with form label{
+  color: var(--main-color);
+  font-size:  1.25rem;
+}
+.contact-with form input {
+  background:none;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0 !important;
+  color: lightgrays;
+}
+h1{
+  position: relative;
 }
