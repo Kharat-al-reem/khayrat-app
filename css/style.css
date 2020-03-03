@@ -147,12 +147,23 @@ a:hover {
 /* footer */
 
 .footer {
+  position: relative;
   background-image: url("../imgs/footer.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 .a-footer-mask {
   position: absolute;
+}
+
+.footer-bg-bg{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: var(--main-bg-color);
+  z-index: -90;
+
 }
 
 .w-48 {
@@ -188,21 +199,21 @@ a:hover {
 }
 
 .menu {
-  margin-top: 230px;
+  margin-top: 200px;
   width: 90%;
 }
 .second-menu {
-  margin-top: 270px;
+  margin-top: 200px;
   width: 90%;
 }
 
 .contact-menu {
-  margin-top: 313px;
+  margin-top: 200px;
   width: 90%;
 }
 
 .a-map {
-  margin-top: 220px;
+  margin-top: 200px;
   width: 90%;
 }
 .map-img {
@@ -521,4 +532,8 @@ h1{
   border-radius: 50%;
   margin-right:28px;
 
+}
+
+.w-30{
+  width: 30%;
 }
