@@ -498,3 +498,27 @@ h1{
 
   
 }
+.a-active .nav-link{
+  color: var(--main-bg-color);
+}
+.a-active a{
+  line-height: normal;
+}
+.a-active::after{
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: var(--main-bg-color);
+  border-radius: 50%;
+  display: inline-block; 
+}
+.a-active span::after{
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: var(--main-bg-color);
+  display: inline-block; 
+  border-radius: 50%;
+  margin-right:28px;
+
+}
