@@ -420,7 +420,6 @@ a:hover {
 .contact-with-img-bg {
   position: absolute;
 
-  /* background-color: var(--main-bg-color); */
   width: 60%;
   height: 660px;
   background-image: url("../imgs/hadi.jpg");
@@ -438,6 +437,64 @@ a:hover {
   border-radius: 0 !important;
   color: lightgrays;
 }
+.contact-with form input:focus{
+  border-bottom: 2px solid;
+  border-color: var(--main-bg-color);
+  box-shadow: none;
+}
 h1{
   position: relative;
+}
+
+
+/* my orders page  */
+.my-orders{
+  position: relative;
+}
+
+.txt-main{
+  color: var(--main-bg-color);
+}
+
+.a-circle{
+  background-color: #fff;
+  border: 1px solid lightslategray;
+  margin: 0;
+  margin-right:-5px;
+
+}
+.a-circle i{
+  font-size: small;
+}
+.a-line{
+  border-bottom: 2px solid lightslategray;
+  width: 120px;
+  display: inline-block;
+  margin: 0;
+  margin-right:-5px;
+  margin-bottom: 2px;
+}
+
+.a-circle-active{
+  border-color: var(--main-bg-color);
+  color: var(--main-bg-color);
+}
+.a-circle-canceld{
+  border-color: red;
+  color: red;
+}
+.a-circle-text{
+  display: inline-block;
+}
+
+.order-number{
+  font-weight: 600;
+  /* margin-right: 30px; */
+
+}
+.order-date{
+  font-weight: 600;
+  /* margin-right: 140px; */
+
+  
 }
