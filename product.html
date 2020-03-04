@@ -8,6 +8,7 @@
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="../demo/css/styles.css"> -->
 
@@ -17,37 +18,53 @@
 <body>
     <div class="container-fluid">
         <div class="a-right-mask">
-            <img src="./imgs/Mask Group 11.png" alt="Mask" class="a-right-mask-img">
+            <img src="./imgs/right-mask.png" alt="Mask" class="a-right-mask-img">
         </div>
-        <nav class="navbar navbar-expand-md a-nav">
+        <nav class="navbar navbar-expand-lg a-nav">
             <!-- Brand/logo -->
             <a class="navbar-brand" href="index.html">
-                <img src="imgs/logo-2.png" alt="logo" style="width:100px;">
+                <img src="imgs/main-logo.png" alt="logo" style="width:120px;">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                القائمة <i class="fas fa-align-justify"></i>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
 
 
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="index.html">الرئيسية</a>
+                        <span></span>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">من نحن</a>
+                        <span></span>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="products.html">المنتجات</a>
+                        <span></span>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="offers.html">العروض</a>
+                        <span></span>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">اتصل بنا</a>
+                        <span></span>
                     </li>
+                     <!--  -->
+                     <li class="nav-item a-collapsed">
+                        <a class="nav-link " href="favorite.html">المفضلة</a>
+                    </li>
+                    <li class="nav-item a-collapsed">
+                        <a class="nav-link " href="cart.html">سلة التسوق</a>
+                    </li>
+                    <li class="nav-item a-collapsed">
+                        <a class="nav-link " href="account.html">حسابي</a>
+                    </li>
+                    <!--  -->
                 </ul>
-                <div class="a-right-nav">
+                <div class="a-right-nav ">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <div class="btn mr-2 rounded-circle btn-lg a-bg-light">
@@ -64,7 +81,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <div class="btn mr-2 a-right-round btn-lg a-bg">
+                            <div class="btn mr-2 a-right-round btn-lg a-bg" style="width: 170px;">
                                 <a class="a-bg" href="./account.html">
                                     <i class="far fa-user-circle"></i>
                                     <span class="px-2">حسابى</span>
@@ -115,11 +132,11 @@
         <div class="container">
             <div class="row mt-5">
                 <div class="col-md-4">
-                    <div class="row">
-                        <div class="col-md-4 a-bg p-4 rounded">
-                            <img class="w-100" src="./imgs/business.png" alt="">
+                    <div class="row mt-3">
+                        <div class="col-4 a-bg p-4 rounded">
+                            <img class="" width="80px" height="80px" src="./imgs/business.png" alt="">
                         </div>
-                        <div class="col-md-8 pr-1 ">
+                        <div class="col-8 pr-1 ">
                             <div class="a-bg-light rounded h-100">
                                 <h5 class=" p-3">حجم الذبيحة</h5>
                                 <div class="form-group w-75 mx-auto">
@@ -135,11 +152,11 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="row">
-                        <div class="col-md-4 a-bg p-4 rounded">
+                    <div class="row mt-3">
+                        <div class="col-4 a-bg p-4 rounded">
                             <img class="" width="80px" height="80px" src="./imgs/x2.png" alt="">
                         </div>
-                        <div class="col-md-8 pr-1 ">
+                        <div class="col-8 pr-1 ">
                             <div class="a-bg-light rounded h-100">
                                 <h5 class=" p-3">الكمية</h5>
                                 <div class="form-group w-75 mx-auto">
@@ -155,11 +172,11 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="row">
-                        <div class="col-md-4 a-bg p-4 rounded">
+                    <div class="row mt-3">
+                        <div class="col-4 a-bg p-4 rounded">
                             <img class="" width="80px" height="80px" src="./imgs/money-bag.png" alt="">
                         </div>
-                        <div class="col-md-8 pr-1 ">
+                        <div class="col-8 pr-1 ">
                             <div class="a-bg-light rounded h-100">
                                 <h5 class=" p-3">السعر </h5>
                                 <div class="form-group w-75 mx-auto">
@@ -175,11 +192,11 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-4">
-                    <div class="row">
-                        <div class="col-md-4 a-bg p-4 rounded">
+                    <div class="row mt-4">
+                        <div class="col-4 a-bg p-4 rounded">
                             <img class="" width="80px" height="80px" src="./imgs/chopping.png" alt="">
                         </div>
-                        <div class="col-md-8 pr-1 ">
+                        <div class="col-8 pr-1 ">
                             <div class="a-bg-light rounded h-100">
                                 <h5 class=" p-3">التقطيع </h5>
                                 <div class="form-group w-75 mx-auto">
@@ -195,11 +212,11 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-4">
-                    <div class="row">
-                        <div class="col-md-4 a-bg p-4 rounded">
+                    <div class="row mt-3">
+                        <div class="col-4 a-bg p-4 rounded">
                             <img class="" width="80px" height="80px" src="./imgs/package.png" alt="">
                         </div>
-                        <div class="col-md-8 pr-1 ">
+                        <div class="col-8 pr-1 ">
                             <div class="a-bg-light rounded h-100">
                                 <h5 class=" p-3">التغليف </h5>
                                 <div class="form-group w-75 mx-auto">
@@ -212,11 +229,11 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-4">
-                    <div class="row">
-                        <div class="col-md-4 a-bg p-4 rounded">
+                    <div class="row mt-3">
+                        <div class="col-4 a-bg p-4 rounded">
                             <img class="" width="80px" height="80px" src="./imgs/mincer.png" alt="">
                         </div>
-                        <div class="col-md-8 pr-1 ">
+                        <div class="col-8 pr-1 ">
                             <div class="a-bg-light rounded h-100">
                                 <h5 class=" p-3">لحم مفروم </h5>
                                 <div class="form-group w-75 mx-auto">
@@ -233,7 +250,7 @@
                 </div>
             </div>
             <div class="extra mt-5">
-                <div class="btn a-bg a-left-round w-25 ">
+                <div class="btn a-bg a-left-round w-50 ">
                     <h3> <a href="" class="a-link">خيارات اضافية</a> </h3>
                 </div>
 
@@ -281,7 +298,7 @@
                     </div>
 
                     <div class="col-md-6 mt-5">
-                        <div class="btn a-bg a-right-round w-75 float-left">
+                        <div class="btn a-bg a-right-round w-100 float-left">
                             <h4> اجمالي المبلغ
                                 <span> 1500 ريال</span> 
                             </h4>

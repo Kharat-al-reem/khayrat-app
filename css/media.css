@@ -41,6 +41,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .a-collapsed {
+    display: none !important;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -59,6 +62,17 @@ Custom media queries
 
 /* Set width to make card deck cards 100% width */
 @media (max-width: 576px) and (min-width: 300px) {
+  .a-right-nav {
+    display: none !important;
+  }
+
+   .a-active::after {
+    display: none !important;
+  }
+  .a-active span::after {
+    display: none !important;
+  }
+
   .Photos .row .col-md-6 {
     margin-top: 20px;
   }
@@ -81,9 +95,9 @@ Custom media queries
     background-image: none !important;
     background-color: var(--main-bg-color);
   }
-  .footer .v-c{
-      text-align: center;
-      margin: auto;
+  .footer .v-c {
+    text-align: center;
+    margin: auto;
   }
   .footer .v-c .nav {
     margin: auto;
@@ -113,6 +127,15 @@ Custom media queries
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
+  .a-right-nav {
+    display: none !important;
+  }
+   .a-active::after {
+    display: none !important;
+  }
+  .a-active span::after {
+    display: none !important;
+  }
   .appstore .row .col-md-8 .row {
     height: 200px;
   }
@@ -148,6 +171,15 @@ Custom media queries
   /*  */
 }
 @media (min-width: 769px) and (max-width: 992px) {
+  .a-right-nav {
+    display: none !important;
+  }
+   .a-active::after {
+    display: none !important;
+  }
+   .a-active span::after {
+    display: none !important;
+  }
   .appstore .row .col-md-8 .row {
     height: 215px !important;
   }
