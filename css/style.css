@@ -31,11 +31,11 @@ a:hover {
 .a-right-mask-img {
   width: 170px;
 }
-.a-left-mask{
+.a-left-mask {
   position: absolute;
   left: 10px;
 }
-.a-left-mask-img{
+.a-left-mask-img {
   width: 400px;
 }
 .a-right-round {
@@ -74,7 +74,7 @@ a:hover {
   margin-right: auto;
   margin-left: -30px;
 }
-.navbar-toggler{
+.navbar-toggler {
   color: var(--main-bg-color);
 }
 
@@ -168,14 +168,13 @@ a:hover {
   position: absolute;
 }
 
-.footer-bg-bg{
+.footer-bg-bg {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 200px;
   background-color: var(--main-bg-color);
   z-index: -90;
-
 }
 
 .w-48 {
@@ -449,103 +448,150 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.contact-with form label{
+.contact-with form label {
   color: var(--main-color);
-  font-size:  1.25rem;
+  font-size: 1.25rem;
 }
 .contact-with form input {
-  background:none;
+  background: none;
   border: none;
   border-bottom: 1px solid lightgray;
   border-radius: 0 !important;
   color: lightgrays;
 }
-.contact-with form input:focus{
+.contact-with form input:focus {
   border-bottom: 2px solid;
   border-color: var(--main-bg-color);
   box-shadow: none;
 }
-h1{
+h1 {
   position: relative;
 }
-
 
 /* my orders page  */
-.my-orders{
+.my-orders {
   position: relative;
 }
 
-.txt-main{
+.txt-main {
   color: var(--main-bg-color);
 }
 
-.a-circle{
+.a-circle {
   background-color: #fff;
   border: 1px solid lightslategray;
   margin: 0;
-  margin-right:-5px;
-
+  margin-right: -5px;
 }
-.a-circle i{
+.a-circle i {
   font-size: small;
 }
-.a-line{
+.a-line {
   border-bottom: 2px solid lightslategray;
   width: 120px;
   display: inline-block;
   margin: 0;
-  margin-right:-5px;
+  margin-right: -5px;
   margin-bottom: 2px;
 }
 
-.a-circle-active{
+.a-circle-active {
   border-color: var(--main-bg-color);
   color: var(--main-bg-color);
 }
-.a-circle-canceld{
+.a-circle-canceld {
   border-color: red;
   color: red;
 }
-.a-circle-text{
+.a-circle-text {
   display: inline-block;
 }
 
-.order-number{
+.order-number {
   font-weight: 600;
   /* margin-right: 30px; */
-
 }
-.order-date{
+.order-date {
   font-weight: 600;
   /* margin-right: 140px; */
-
-  
 }
-.a-active .nav-link{
+.a-active .nav-link {
   color: var(--main-bg-color);
 }
-.a-active a{
+.a-active a {
   line-height: normal;
 }
-.a-active::after{
-  content: '';
+.a-active::after {
+  content: "";
   width: 12px;
   height: 12px;
   background-color: var(--main-bg-color);
   border-radius: 50%;
-  display: inline-block; 
+  display: inline-block;
 }
-.a-active span::after{
-  content: '';
+.a-active span::after {
+  content: "";
   width: 12px;
   height: 12px;
   background-color: var(--main-bg-color);
-  display: inline-block; 
+  display: inline-block;
   border-radius: 50%;
-  margin-right:28px;
-
+  margin-right: 28px;
 }
 
-.w-30{
+.w-30 {
   width: 30%;
+}
+
+/* log in  */
+.log-in {
+}
+.log-in .modal-content {
+  position: relative;
+}
+.log-in .mask {
+  position: absolute;
+  width: 250px;
+  right: -1px;
+}
+.log-in .form-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.log-in .main-logo {
+  margin-top: 230px;
+}
+.log-in form label {
+  color: var(--main-color);
+  font-size: 16px;
+}
+.log-in form input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0 !important;
+  color: lightgrays;
+  font-size: 16px;
+}
+
+.log-in form .custom-control {
+  padding: 0 2.3rem 0 0;
+}
+.log-in form input:focus {
+  border-bottom: 2px solid;
+  border-color: var(--main-bg-color);
+  box-shadow: none;
+}
+
+.log-in form .a-btn-new {
+  border: 2px solid var(--main-bg-color);
+  color: var(--main-bg-color);
+}
+
+.log-in .a-close {
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  float: left;
+  font-size: 1.5rem;
 }
