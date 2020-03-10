@@ -44,10 +44,16 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .a-collapsed {
     display: none !important;
   }
+  .second-menu .nav{
+    display: block !important;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .second-menu .nav{
+    display: block !important;
+  }
 }
 
 /*
@@ -243,6 +249,10 @@ Custom media queries
     margin-top: 20px !important;
     margin-bottom: 20px !important;
     width: 90%;
+  }
+
+  .second-menu .nav{
+    display: block !important;
   }
 
   /*  */
