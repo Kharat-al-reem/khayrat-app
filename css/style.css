@@ -24,6 +24,10 @@ a:hover {
   color: var(--main-color);
 }
 
+.a-logo{
+  width: 120px;
+}
+
 .a-right-mask {
   position: absolute;
 }
