@@ -18,12 +18,10 @@
 
 
 <body>
-    <div id="loader" class="loader-wrapper animated fadeOut delay-2s slow-2s" >
+    <div id="loader" class="loader-wrapper animated fadeOut delay-2s slow-2s">
         <img class="d-block mx-auto animated " src="./imgs/loading-خيرات-الريم.gif" alt="">
     </div>
-    
-
-    <div id="site"  class="container-fluid animated fadeIn">
+    <div id="site" class="container-fluid animated fadeIn">
         <div class="a-right-mask">
             <img src="./imgs/right-mask.png" alt="Mask" class="a-right-mask-img">
         </div>
@@ -618,14 +616,7 @@
             <h4 class="mx-auto a-copy mt-2">Copyright &copy; 2020 khayrat Al Reem </h4>
         </div>
     </div>
-
-
     </div>
-
-
-
-
-
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -639,23 +630,17 @@
 
     <script src="./js/script.js"></script>
     <script>
-        var site = document.getElementById("site");
-        var loader = document.getElementById("loader");
-        site.style.display = "none"
-      setTimeout(function () {
-          loader.style.display = "none";
-          site.style.display = "block"
-      }, 3000)
-
-      // window.setTimeout(function(
-      //     load
-      // ){},7000)
-
-     
-    //   window.addEventListener('load', function () {
-    //       loader.style.visibility = "hidden";
-    //   });
-  </script>
+        document.onload(animateLoader());
+        function animateLoader() {
+            var site = document.getElementById("site");
+            var loader = document.getElementById("loader");
+            site.style.display = "none"
+            setTimeout(function () {
+                loader.style.display = "none";
+                site.style.display = "block"
+            }, 3000)
+        }
+    </script>
 
 
 </body>

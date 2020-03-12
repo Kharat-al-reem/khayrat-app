@@ -626,3 +626,16 @@ h1 {
 .a-add-addres {
   position: relative;
 }
+
+.a-updae-profile form input{
+  background: none;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0 !important;
+}
+
+.a-updae-profile form input:focus {
+  border-bottom: 2px solid;
+  border-color: var(--main-bg-color);
+  box-shadow: none;
+}
