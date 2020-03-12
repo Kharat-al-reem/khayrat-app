@@ -44,14 +44,14 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .a-collapsed {
     display: none !important;
   }
-  .second-menu .nav{
+  .second-menu .nav {
     display: block !important;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .second-menu .nav{
+  .second-menu .nav {
     display: block !important;
   }
 }
@@ -72,13 +72,13 @@ Custom media queries
     display: none !important;
   }
 
-   .a-active::after {
+  .a-active::after {
     display: none !important;
   }
   .a-active span::after {
     display: none !important;
   }
-  .a-logo{
+  .a-logo {
     width: 85px;
   }
 
@@ -87,20 +87,20 @@ Custom media queries
     padding: 15px;
   }
 
-  .a-sent .row .col-sm-5 div .mr-4{
+  .a-sent .row .col-sm-5 div .mr-4 {
     float: none !important;
     margin: auto;
   }
-  .a-sent .row .col-sm-5 div .mr-4 img{
-    display: block ;
+  .a-sent .row .col-sm-5 div .mr-4 img {
+    display: block;
     margin: auto;
     margin-bottom: 5px;
   }
-  .a-sent .row .col-sm-5 .mr-3{
+  .a-sent .row .col-sm-5 .mr-3 {
     float: none !important;
     text-align: center;
   }
-  .a-sent input{
+  .a-sent input {
     width: 60% !important;
   }
   .a-sent button {
@@ -109,11 +109,10 @@ Custom media queries
 
   .a-left-mask-img {
     width: 200px !important;
-}
-.slider p{
-  margin-bottom: -20px;
-
-}
+  }
+  .slider p {
+    margin-bottom: -20px;
+  }
 
   .Photos .row .col-md-6 {
     margin-top: 20px;
@@ -132,7 +131,58 @@ Custom media queries
     margin: auto;
     float: none !important;
   }
+  /* cart */
+  .favorit .h5,
+  h5 {
+    font-size: 1.1rem;
+  }
+  .favorit .rounded-right {
+    display: none;
+  }
+  /* order */
+  .a-line {
+    width: 70px !important;
+  }
+  .order-number {
+    padding-right: 0 !important;
+  }
+  .order-date {
+    padding-right: 0 !important;
+  }
+  .a-circle-text {
+    display: inline-block;
+    padding: 5px !important;
+    margin: 0 !important;
+    font-size: 12px;
+  }
+  /* my-account */
+
+  .my-account .account .acc-short {
+    width: 50px !important;
+    height: 50px !important;
+
+  }
+  .my-account .account .acc-short i {
+  }
+  .my-account .account .acc-long {
+    width: 200px !important;
+    height: 50px !important;
+
+  }
+  .my-account .account .acc-long a span,i {
+    font-size: 14px !important;
+  }
+  .my-account .account .acc-long a i{
+    display: none !important;
+  }
+  .my-account .btn-dark{
+    font-size: 14px !important;
+  }
+  .my-account .a-border-left{
+border-left: none !important;
+  }
   /* footer */
+
   .footer {
     background-image: none !important;
     background-color: var(--main-bg-color);
@@ -159,7 +209,7 @@ Custom media queries
     /* margin-top: 20px !important; */
     width: 90%;
   }
-  
+
   .container-fluid .row h4 {
     text-align: center;
   }
@@ -172,12 +222,11 @@ Custom media queries
   }
 
   /* contact page */
-  .or-contact-container{
+  .or-contact-container {
     margin: 0 !important;
     text-align: center;
- 
   }
-  .or-contact-container ul{
+  .or-contact-container ul {
     justify-content: center !important;
   }
 }
@@ -186,7 +235,7 @@ Custom media queries
   .a-right-nav {
     display: none !important;
   }
-   .a-active::after {
+  .a-active::after {
     display: none !important;
   }
   .a-active span::after {
@@ -230,10 +279,10 @@ Custom media queries
   .a-right-nav {
     display: none !important;
   }
-   .a-active::after {
+  .a-active::after {
     display: none !important;
   }
-   .a-active span::after {
+  .a-active span::after {
     display: none !important;
   }
   .appstore .row .col-md-8 .row {
@@ -251,7 +300,7 @@ Custom media queries
     width: 90%;
   }
 
-  .second-menu .nav{
+  .second-menu .nav {
     display: block !important;
   }
 
