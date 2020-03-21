@@ -639,3 +639,8 @@ h1 {
   border-color: var(--main-bg-color);
   box-shadow: none;
 }
+
+.error{
+  color: var(--main-bg-color) !important;
+  font-size: 4rem;
+}
