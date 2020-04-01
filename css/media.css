@@ -229,6 +229,10 @@ border-left: none !important;
   .or-contact-container ul {
     justify-content: center !important;
   }
+  
+  #mixedSlider .MS-content .item .imgTitle img {
+    height: auto;
+    width: 80%;
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
