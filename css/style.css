@@ -644,3 +644,23 @@ h1 {
   color: var(--main-bg-color) !important;
   font-size: 4rem;
 }
+
+/* notifications */
+.notifications-bill{
+  background-color: var(--main-bg-color);
+  width: 80px !important;
+  height: 80px;
+  border-radius: 50%;
+}
+.notifications-bill i{
+  font-size: 28px !important;
+  color: white;
+}
+.notifications .text{
+  color: var(--main-color);
+  font-size: 18px;
+}
+
+.notifications .col-md-6{
+  margin-top: 3rem;
+}
